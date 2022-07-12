@@ -18,18 +18,17 @@ const SplashScreen = ({ navigation, route }) => {
       }}>
     
       <Button
-
         onPress={() => { navigation.navigate('LoginScreen') }}
-        title="Splash Screen"
+        title="Splash Screen Button"
       />
-      <Image
+      {/* <Image
         source={testImage}
         resizeMode="contain"
         style={{
           width: normalize(200),
           height: normalize(200),
         }}
-      />
+      /> */}
     </Container>
   );
 };
